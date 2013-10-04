@@ -25,10 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		84D003AC17FE78F400E5F972 /* CData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CData.h; path = ../../../../.Trash/CData.h; sourceTree = "<group>"; };
 		84FD911A17FDA1A3001D214B /* UtilityBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UtilityBox; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD911D17FDA1A3001D214B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		84FD911F17FDA1A3001D214B /* UtilityBox.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = UtilityBox.1; sourceTree = "<group>"; };
-		84FD912617FDA1C0001D214B /* CData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			children = (
 				84FD911D17FDA1A3001D214B /* main.cpp */,
 				84FD911F17FDA1A3001D214B /* UtilityBox.1 */,
-				84FD912617FDA1C0001D214B /* CData.h */,
+				84D003AC17FE78F400E5F972 /* CData.h */,
 			);
 			path = UtilityBox;
 			sourceTree = "<group>";
@@ -218,6 +218,7 @@
 				84FD912517FDA1A3001D214B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
