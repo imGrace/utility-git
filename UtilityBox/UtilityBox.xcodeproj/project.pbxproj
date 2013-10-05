@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		840BB06518003A8900C03FDC /* MakeSealed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeSealed.h; sourceTree = "<group>"; };
 		84D003AD17FEEA2C00E5F972 /* CData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CData.h; sourceTree = "<group>"; };
 		84FD911A17FDA1A3001D214B /* UtilityBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UtilityBox; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD911D17FDA1A3001D214B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 				84FD911D17FDA1A3001D214B /* main.cpp */,
 				84FD911F17FDA1A3001D214B /* UtilityBox.1 */,
 				84D003AD17FEEA2C00E5F972 /* CData.h */,
+				840BB06518003A8900C03FDC /* MakeSealed.h */,
 			);
 			path = UtilityBox;
 			sourceTree = "<group>";
