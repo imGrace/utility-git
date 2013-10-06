@@ -16,6 +16,7 @@ class MakeSealed
     ~MakeSealed(){}
 };
 
+//example
 //virtual is required
 class fun:public virtual MakeSealed<fun>
 {

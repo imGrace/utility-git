@@ -32,6 +32,7 @@ public:
 template<typename T>
 typename singleton<T>::createObject singleton<T>::creator;
 
+//example
 class me:public singleton<me>
 {
 public:

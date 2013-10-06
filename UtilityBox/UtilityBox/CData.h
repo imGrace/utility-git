@@ -27,9 +27,20 @@ public:
         assert(len > 1);
         m_pBuf = new T[len]();
     }
-    catch (std::bad_alloc){ m_pBuf = NULL;}
+    catch (/*std::bad_alloc*/...)
+    {
+        delete []m_pBuf;
+        m_pBuf = NULL;
+    }
     
-	~CData(){ delete []m_pBuf;}
+	~CData()
+    {
+        //如果构造函数抛出异常，需要继续调用析构函数，不进行判断会造成二次删除
+        if (m_pBuf != NULL) {
+            delete []m_pBuf;
+            m_pBuf = NULL;
+        }
+    }
     
 	T* GetpBuf()const{return m_pBuf;}
 	size_t GetBufLen()const{ return m_BufLen;}
