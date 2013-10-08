@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8417FD71180149F6006F28F4 /* CSocket.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8417FD70180149F6006F28F4 /* CSocket.cc */; };
 		84FD911E17FDA1A3001D214B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84FD911D17FDA1A3001D214B /* main.cpp */; };
 		84FD912017FDA1A3001D214B /* UtilityBox.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84FD911F17FDA1A3001D214B /* UtilityBox.1 */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		840BB06518003A8900C03FDC /* MakeSealed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakeSealed.h; sourceTree = "<group>"; };
+		8417FD6F180149D6006F28F4 /* CSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSocket.h; sourceTree = "<group>"; };
+		8417FD70180149F6006F28F4 /* CSocket.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSocket.cc; sourceTree = "<group>"; };
 		84CB136A1800FADE00DC2448 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		84D003AD17FEEA2C00E5F972 /* CData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CData.h; sourceTree = "<group>"; };
 		84FD911A17FDA1A3001D214B /* UtilityBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UtilityBox; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +71,8 @@
 				84D003AD17FEEA2C00E5F972 /* CData.h */,
 				840BB06518003A8900C03FDC /* MakeSealed.h */,
 				84CB136A1800FADE00DC2448 /* Singleton.h */,
+				8417FD6F180149D6006F28F4 /* CSocket.h */,
+				8417FD70180149F6006F28F4 /* CSocket.cc */,
 			);
 			path = UtilityBox;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FD911E17FDA1A3001D214B /* main.cpp in Sources */,
+				8417FD71180149F6006F28F4 /* CSocket.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
